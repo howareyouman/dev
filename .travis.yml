@@ -16,8 +16,8 @@ script:
   - docker build -t $DOCKER_HUB_REP .
 
 deploy:
-	provider: azure_web_apps
-	username: $azure_deployment_user
-	password: $azure_deployment_password
-	site: $azure_deployment_sitename
+  provider: azure_web_apps
+  username: $azure_deployment_user
+  password: $azure_deployment_password
+  site: $azure_deployment_sitename
 
