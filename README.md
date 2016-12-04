@@ -9,10 +9,13 @@ solr start -p 8983
 
 # Create databases 
 solr create -c core // for articles, todo:rename <br>
+
 solr create -c events // for events
+
 solr create -c emails // for emails
 
 # Download netbeans full version including apache tomcat
+
 https://netbeans.org/downloads/
 
 # Open this project with netbeans
